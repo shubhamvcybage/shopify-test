@@ -24,11 +24,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1650533018ae8c613c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%assign handle= \"cake\" %}\n{%case handle%}\n{%when \"cake\"%}\nThis is  a cake\n{%when \"biscuits, cookies\" %}\nThis section is for cookies and biscuits\n{% else %}\nNeither of the above\n{%endcase%}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1650465504038c691b",
-    "1650531570fdba977e"
+    "1650531570fdba977e",
+    "1650533018ae8c613c"
   ]
 }
