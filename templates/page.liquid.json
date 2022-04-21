@@ -33,12 +33,22 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1650537321cbfd69db": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% for product in collection.products %}\n  {{ product.title }}\n{% else %}\n  The collection is empty.\n{% endfor %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1650465504038c691b",
     "1650531570fdba977e",
-    "1650533018ae8c613c"
+    "1650533018ae8c613c",
+    "1650537321cbfd69db"
   ]
 }
