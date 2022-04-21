@@ -15,10 +15,20 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1650531570fdba977e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless product.title == \"Awesome Shoes\" %}\n Testing Unless section here It works because the condition is not met These shoes are not awesome.\n{% endunless %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "1650465504038c691b"
+    "1650465504038c691b",
+    "1650531570fdba977e"
   ]
 }
