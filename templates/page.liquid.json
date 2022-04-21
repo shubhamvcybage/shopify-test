@@ -10,7 +10,7 @@
     "1650465504038c691b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{page.title}}\n\n{% if page.title == \"Contact\" %}\n  This page is awesome!\n{% endif %}",
+        "custom_liquid": "{{page.title}}\n\n{% if page.title == \"Contact\" %}\nTesting Control Tag in liquid\n  This page is awesome!\n{% endif %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
